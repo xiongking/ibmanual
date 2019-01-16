@@ -2,9 +2,6 @@
 	"lang": "zh-cn",
 	"plugins": ["prism", "-highlight", "expandable-chapters", "theme-comscore"],
     "pluginsConfig": {
-			"sitemap": {
-				"hostname": "http://book.timingcap.com/"
-			}
     },
 	"collapsible_menu":true,
     "level_number":true,
