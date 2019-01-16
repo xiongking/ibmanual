@@ -1,9 +1,9 @@
 {
 	"lang": "zh-cn",
-	"plugins": ["prism", "-highlight", "expandable-chapters", "theme-comscore"],
+	"plugins": ["prism", "highlight", "expandable-chapters", "theme-comscore"],
     "pluginsConfig": {
     },
-	"collapsible_menu":true,
+	"collapsible_menu":false,
     "level_number":true,
 	"showLevel":true
 }
