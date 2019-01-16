@@ -1,9 +1,26 @@
 {
 	"lang": "zh-cn",
-	"plugins": ["prism", "highlight", "expandable-chapters", "theme-comscore"],
+	"plugins": [
+		"prism",
+		"highlight", 
+		"expandable-chapters", 
+		"theme-comscore",
+		"multipart",
+		"splitter",
+		"-simple-page-toc",
+		"-anchor-navigation-ex",
+		"-sharing"
+	],
+
     "pluginsConfig": {
-    },
-	"collapsible_menu":false,
-    "level_number":true,
-	"showLevel":true
+		"simple-page-toc": 	{
+            "maxDepth": 3,
+            "skipFirstH1": true
+        }
+	 },
+
+	"collapsible_menu":true,
+    "level_number":false,
+	"showLevel":false
+
 }
