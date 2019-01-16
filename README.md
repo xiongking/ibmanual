@@ -13,6 +13,4 @@ https://github.com/xiongking/book
 
 ---
 
-![avatar](https://creativecommons.org/wp-content/uploads/2016/06/cc.logo_.white_.png)
-
-本作品采用知识共享 署名-相同方式共享 4.0 国际 许可协议进行许可。访问[https://creativecommons.org/licenses/by-sa/4.0/deed.zh](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 查看该许可协议。
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
