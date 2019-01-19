@@ -1,0 +1,89 @@
+{ 
+	"title": "demo", 
+	"description": "demo",  
+	"language": "zh",  
+	
+	"plugins": [ 
+		"disqus", 
+		"github", 
+		"editlink", 
+		"prism", 
+		"highlight", 
+		"baidu", 
+		"splitter", 
+		"sitemap", 
+		"tbfed-pagefooter", 
+		"fontsettings", 
+		"simple-page-toc", 
+		"links",
+		"multipart",
+		"books"
+	], 
+	
+	"styles": {
+    	"website": "styles/website.css",
+    	"ebook": "styles/ebook.css",
+    	"pdf": "styles/pdf.css",
+    	"mobi": "styles/mobi.css",
+    	"epub": "styles/epub.css"
+	},
+
+	"pluginsConfig": {
+		
+		"tbfed-pagefooter": { 
+			"copyright": "",
+			"modify_label": "该文件修订时间：", 
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},     
+		
+		"fontsettings": {  
+			"theme": "white", 
+			"family": "serif", 
+			"size": 12
+		},       
+		
+		"simple-page-toc": {    		
+			"maxDepth": 3, 
+			"skipFirstH1": true 
+		}, 
+		
+		"links": { 
+			"gitbook": false,
+			"sharing": {
+				"google": false,
+				"facebook": false,
+				"twitter": false,
+				"all": false
+			}
+		},
+
+		"disqus":{
+			"shortName": "timingbook"
+		},
+
+		"github":{
+			"url": "https://github.com/xiongking/ibmanual"
+		},
+		
+		"editlink":{  
+			"base": "https://github.com/webChatContact", "label": "编辑本页面"
+		},
+
+		"baidu": { 
+			"token": "a6c50a4c51c56a811e2b2f617dca1b64" 
+		},
+
+		"sitemap":{
+			"hostname": "https://book.timingbook.com/"
+		},
+
+		"books": {
+      		"prism_themes": "prismjs/themes/prism-okaidia.css",
+      		"github_url": "https://liushilive.github.io/"
+    	},
+    	
+    	"theme-default": {
+    		"showLevel": true
+    	}
+	}
+}
